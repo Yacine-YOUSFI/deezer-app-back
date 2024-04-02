@@ -1,5 +1,9 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+playList:
+    path: '/playlists'
+    controller: App\Controller\PlayListController::getAllPlayListAction
+    methods: [ GET ]
+
+detail:
+    path: '/playlists/{id}'
+    controller: App\Controller\PlayListController::getDetailPlayListAction
+    methods: [ GET ]
