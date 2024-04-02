@@ -11,7 +11,7 @@ Installation
 
 There are 3 different ways of installing this project depending on your needs:
 
-**Option 1.** [Download Symfony CLI][4] and use the `symfony` binary installed
+[Download Symfony CLI][4] and use the `symfony` binary installed
 on your computer to run this command:
 
 ```bash
